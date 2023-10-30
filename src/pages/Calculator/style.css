@@ -1,0 +1,32 @@
+.result {
+    height: 120px;
+    background-color: #121722 !important;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.result p {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.calculator-body {
+    width: 100%;
+    margin: auto;
+    margin-top: -5px;
+}
+
+.button {
+    display: block;
+    background-color: #121722 !important;
+}
+
+.button button{
+    width: 25%;
+    min-height: 90px !important;
+    max-width: 100% !important;
+    font-size: 30px;
+    background-color: #2a303e74 !important;
+    color: #fff;
+}

@@ -1,0 +1,357 @@
+.main-section{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+.main-section header{
+    display: flex;
+    text-align: left;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 181, 224, 0.2);
+}
+
+.add-btn{
+    position: absolute;
+    right: 30px;
+}
+
+.add-btn .mc-btn{
+    width: 40px;
+    height: 40px;
+    background-color: #ea7b1f;
+}
+
+.add-btn .mc-btn:hover{
+    transition: all ease-in-out 2s;
+    background-color: #ea7b1f;
+    width: 42px;
+    height: 42px;
+}
+
+.document-list{
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+
+.document-list .single-docs{
+    height: 180px;
+    background-color: #22272e;
+    cursor: pointer;
+    flex: 0 0 180px !important;
+    max-width: 180px !important;
+    overflow: hidden;
+    margin: 0 8px 24px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px #1810106c;
+    padding: 5px;
+}
+
+.single-docs p{
+    height: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.single-docs i{
+    font-size: 13px;
+}
+
+.single-docs .btn-trash{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 90px;
+    bottom: 35px;
+    visibility: hidden;
+}
+
+.single-docs .btn-trash:hover{
+    background-color: #de3636;
+}
+
+.single-docs .btn-trash svg{
+    font-size: 14px !important;
+    bottom: 10px;
+}
+
+.document-list .single-docs:hover{
+    border: 1px solid rgba(128, 181, 224, 0.2);
+}
+
+.document-list .single-docs:hover .btn-trash{
+    visibility: visible;
+}
+
+.document-list .single-docs .type-icon{
+    align-items: center !important;
+    margin-top: 20px;
+    position: relative;
+    right: 15px;
+    font-size: 50px;
+}
+
+.single-docs .subtitle {
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.back{
+    cursor: pointer;
+    color: #79c3ff;
+}
+
+.back svg{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-right: 7px;
+}
+
+/* Upload  */
+.vg-main {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+
+.vg-main .upload-section {
+    margin-top: 10px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.facegen-portal {
+    max-width: 898px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.facegen-portal > h4 {
+    margin: 40px 0px 32px;
+}
+
+.flex-stretch {
+    display: inline-flex;
+    align-items: stretch;
+}
+
+.pcw-avi-option.upload {
+    position: relative;
+}
+
+.facegen-portal .pcw-avi-option {
+    padding-top: 43px;
+    padding-bottom: 40px;
+    justify-content: flex-start;
+}
+
+.pcw-avi-option {
+    width: 412px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.15);
+    background: rgb(30, 36, 49);
+    padding: 44px 40px 62px;
+}
+
+.facegen-portal .pcw-avi-option .icons:first-child {
+    color: rgb(255, 255, 255) !important;
+}
+
+.facegen-portal .pcw-avi-option .icons {
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.pcw-avi-option p {
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(249, 249, 250, 0.8);
+    margin: 0px;
+}
+
+.pcw-avi-option .mc-btn {
+    width: 193px;
+    margin-top: 34px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pcw-avi-option.upload .click-upload {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.or{
+    font-weight: bold;
+    margin: 15px;
+}
+
+.document-btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.pdf-viewers{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.page-btns {
+    flex: 1;
+    text-align: right;
+}
+
+.document-name{
+    flex: 1;
+    text-align: center;
+}
+
+.page-numbers{
+    flex: 1;
+    text-align: left;
+}
+
+.page-btns .mc-btn{
+    width: 30px;
+    height: 30px;
+}
+
+.page-btns .mc-btn:hover{
+    background-color: #79c3ff;
+}
+
+.table_mode{
+    width: 100%;
+}
+
+.table_mode table {
+    width: 100%;
+}
+
+.table_mode table thead tr{
+    background-color: #0502183c;
+    height: 40px;
+    font-weight: bold;
+}
+
+.table_mode table th{
+    text-transform: capitalize !important;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table_mode table tbody tr{
+    height: 40px;
+    cursor: pointer;
+}
+
+.table_mode table tbody td{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table_mode table  td:last-child, .table_mode table  th:last-child {
+    text-align: center;
+}
+
+.table_mode .icon-name .mc-btn{
+    font-size: 15px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.table_mode table tbody tr:nth-child(even){
+    background-color: #ffffff07;
+}
+
+.actions button{
+    width: 32px;
+    height: 30px;
+}
+
+.actions button:last-child:hover{
+    background-color: #de3636;
+}
+
+.actions button:first-child:hover{
+    background-color: #76de36;
+}
+
+.sub-header button{
+    background-color: transparent;
+    border: none;
+    color: #f9f9f965;
+}
+
+.sub-header button:hover, .sub-header .active{
+    color: #fff;
+}
+
+
+
+.form-element{
+    width: 100%;
+}
+
+.form-element label{
+    display: block;
+    text-align: left;
+}
+
+.form-element input{
+    width: 100%;
+}
+
+.form-element + .form-element{
+    margin-top: 15px;
+}
+
+.form-element textarea {
+    width: 100%;
+    padding: 6px 10px 6px;
+    background-color: rgba(249, 249, 250, 0.05);
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+    color: rgba(249, 249, 250, 0.6);
+    font: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    height: 86px;
+    text-align: left;
+    transition: 0.1s;
+}
+
+.upload-btn{
+    width: 100% !important;
+    border-radius: 1px !important;
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+    background-color: rgba(249, 249, 250, 0.05) !important;
+}

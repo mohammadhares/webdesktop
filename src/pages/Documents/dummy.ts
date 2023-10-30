@@ -1,0 +1,51 @@
+
+export const DocumentData = [
+    {
+        productName: "ASCALON",
+        name: '01032323.pdf',
+        title: 'Asclaon traning',
+        description: 'some text',
+        type: "pdf",
+        file: '',
+    },
+    {
+        productName: "ASCALON",
+        name: '1209120sdj.mp4',
+        title: 'Dp traning',
+        description: 'some text',
+        type: "video",
+        file: '',
+    },
+    {
+        productName: "ASCALON",
+        title: 'TCP File',
+        name: '1209120sdj.mp4',
+        description: 'some text',
+        type: "video",
+        file: '',
+    },
+    {
+        productName: "ASCALON",
+        name: '01032323.pdf',
+        title: 'Asclaon traning',
+        description: 'ascalon traning video, this is some description. this is some description.this is some description.',
+        type: "pdf",
+        file: '',
+    },
+    {
+        productName: "ASCALON",
+        name: '01032323.pdf',
+        title: 'SAMP lg',
+        description: 'some text',
+        type: "pdf",
+        file: '',
+    },
+    {
+        productName: "ASCALON",
+        name: '01032323.pdf',
+        title: 'NVP lg',
+        description: 'some text',
+        type: "pdf",
+        file: '',
+    },
+]

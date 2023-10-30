@@ -1,0 +1,79 @@
+body {
+    background-image: url('../../assets/images/backgrounds/login.jpg');
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter::after {
+    background-color: rgba(0, 0, 0, 0.651);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+@keyframes cloudLoop {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+.moving-clouds{
+    background-image: url(../../assets/images/backgrounds/clouds.png);
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        width: 250.625em;
+        height: 43.75em;
+        -webkit-animation: cloudLoop 80s linear infinite;
+        animation: cloudLoop 80s linear infinite;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.form-box {
+    width: 380px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.68);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* opacity: 0.5; */
+    border-radius: 2%;
+    z-index: 99999 !important;
+    padding-top: 70px;
+}
+
+.form-box input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.body-form h2{
+    text-align: center;
+}
+
+.login-btn{
+    width: 100%;
+    height: 40px;
+    background-color: #2a5518e6 !important;
+}
