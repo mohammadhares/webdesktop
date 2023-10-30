@@ -1,7 +1,7 @@
 {
   "name": "ascalon",
   "version": "1.0.5-SNAPSHOT",
-  "homepage": "https://github.com/mohammadhares/webdesktop",
+  "homepage": "https://mohammadhares.github.io/webdesktop",
   "private": true,
   "dependencies": {
     "@datepicker-react/hooks": "^2.8.4",
@@ -50,7 +50,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" ,
+    "deploy": "gh-pages -d build" , 
     "start": "set PORT=4001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
